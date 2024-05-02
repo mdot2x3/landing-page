@@ -32,7 +32,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: darkslateblue;
+  background-color: #1F2937;
   padding: 15px 50px;
   font-size: 24px;
   font-weight: bold;
@@ -51,7 +51,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: darkgoldenrod;
+  background-color: #1F2937;
   padding: 100px 50px;
   color: #E5E7EB;
   font-size: 18px;
@@ -80,7 +80,7 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: darkcyan;
+  background-color: #F9FAF8;
   padding: 50px 50px 100px;
 }
 
@@ -110,7 +110,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: darkgrey;
+  background-color: #E5E7EB;
   padding: 100px 50px;
 }
 
@@ -122,19 +122,21 @@ img {
   font-size: 36px;
   font-style: italic;
   font-weight: lighter;
+  color: #1F2937;
 }
 
 .quotes footer {
   font-size: 26px;
   font-weight: bold;
   text-align: end;
+  color: #1F2937;
 }
 
 .call-to-action {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: darkgreen;
+  background-color: #F9FAF8;
   padding: 100px 50px;
 }
 
@@ -164,6 +166,6 @@ img {
   justify-content: center;
   align-items: center;
   padding: 30px;
-  background-color: darkred;
+  background-color: #1F2937;
   color: #E5E7EB;
 }
