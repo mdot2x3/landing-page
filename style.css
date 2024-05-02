@@ -106,7 +106,57 @@ img {
 }
 
 .quotes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: darkgrey;
+  padding: 100px 50px;
+}
+
+.quotes-container {
+  max-width: 850px;
+}
+
+.quotes p {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.quotes footer {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: end;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkgreen;
+  padding: 100px 50px;
+}
+
+.cta-container {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  background-color: #3882F6;
+  border-radius: 5px;
+  padding: 50px 100px;
+}
+
+.cta-container h2 {
+  color: #F9FAF8;
+}
+
+.cta-container p {
+  color: #E5E7EB;
+}
+
+.cta-container button {
+  border: 2px solid #E5E7EB;
 }
 
 .footer {
